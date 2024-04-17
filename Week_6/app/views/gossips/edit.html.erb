@@ -1,0 +1,24 @@
+
+<h1> Edit gossip </h1>
+
+
+<%= form_for @gossip do |f| %>
+
+
+  <div class="form-group">
+    <label>Titre</label>
+    <%= f.text_field :title, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <label>Content</label>
+    <%= f.text_area :content, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+  <button type="submit" class="btn bouton-gossip">modifier le gossip</button>
+</div>
+
+<% end %>
+</br>
+<p> To edit a gossip : Title can't be less than 3 or more than 14 characters long and can't be blank, content can't be blank. </p>

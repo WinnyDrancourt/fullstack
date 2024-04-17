@@ -1,0 +1,406 @@
+.nice-background {
+    background-color: #232323;
+    background-image: linear-gradient(90deg, #000000 0%, #3e0846 50%, #000000 100%);
+    
+}
+
+.link-to-user {
+  text-decoration: none;
+  color: white;
+}
+
+.link-to-user:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 5vh;
+}
+
+.p-current {
+  margin-bottom: 0px;
+}
+
+.jumbotron {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bgnavbar {
+    background-color: #000000;
+    background-image: linear-gradient(90deg, #000000 0%, #292929 50%, #000000 100%);
+    
+}
+
+body {
+    background: #56004800;
+    color: aliceblue;
+}
+
+main {
+    margin: 60px 0 0 0;
+    background: #56004800;
+}
+
+.team-background {
+    background-image: url('background-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 44em;
+}
+
+.row-gossip {
+    margin-left: 120px;
+    margin-right: 0px;
+
+}
+
+/* .card {
+    background-color: #9e99a1;
+    background-image: linear-gradient(0deg, #232323 0%, #313030 100%);
+    border: none;
+    
+    margin: 10px 5px;
+    padding: 5px 5px;
+
+} */
+
+.card-text {
+    margin: 0 0 0 0;
+}
+
+.bggossip {
+    background-color: #9e99a1;
+    background-image: linear-gradient(0deg,  #313030 0%, #232323 100%);
+    margin: 10px 5px;
+    padding: 5px 3px 5px 10px;
+}
+
+.bouton-gossip {
+  border: none;
+  text-decoration: none;
+  color: #6C1873;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  cursor: pointer;
+  transition: all 450ms ease-in-out;
+}
+
+.text {
+  font-weight: 600;
+  color: #AAAAAA;
+  font-size: medium;
+}
+
+.bouton-gossip:hover {
+  background: linear-gradient(0deg,#A47CF3,#c01fc9);
+
+  inset: 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+  0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+  0px 0px 180px 0px #9917FF;
+  transform: translateY(-2px);
+}
+
+.btn:hover .text {
+  color: white;
+}
+
+.size-button {
+  width: 150px;
+}
+
+.bouton-gossip {
+  text-decoration: none;
+    margin: 3px 0 3px 0;
+    padding: 2px 4px;
+    display: flex;
+    justify-content:center;
+}
+
+.bouton-connect {
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #6e106e;
+  cursor: pointer;
+  transition: all 450ms ease-in-out;
+}
+
+.text {
+  font-weight: 600;
+  color: #AAAAAA;
+  font-size: medium;
+}
+
+.bouton-connect:hover {
+  background: linear-gradient(0deg,#A47CF3,#c01fc9);
+  inset: 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+  0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+  0px 0px 180px 0px #9917FF;
+  transform: translateY(-2px);
+}
+
+.btn:hover .text {
+  color: white;
+}
+
+
+.bouton-connect {
+
+    color: white;
+    margin: 3px 0 3px 0;
+    padding: 2px 4px;
+
+}
+
+.bouton-connexion:hover {
+  text-decoration: underline;
+}
+
+.bouton-connexion {
+  border-radius: 2px;
+
+  color: black;
+  margin: 3px 0 3px 0;
+  padding: 2px 4px;
+  display: flex;
+  justify-content:center;
+}
+
+.team-margin {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: none;
+    text-align: center;
+
+
+}
+
+.alert-farm-false {
+    margin: 0px 0px 25px 0px;
+}
+
+.col-md-6 {
+    margin: 0 200px;
+}
+
+.bouton-contact {
+    border-radius: 2px;
+    background-color: #7a2585;
+    color: white;
+    margin: 3px 0 3px 0;
+    padding: 5px 10px;
+
+}
+
+.click-for-nothing {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+::-webkit-scrollbar-thumb {
+    background: #7a2585; 
+    border-radius: 20px;
+  }
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #894694; 
+  }
+
+  .card-index {
+    color: white;
+    width: 150vh;
+    height: 16vh;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-bottom: 10px;
+  }
+  
+  .card-gossip {
+    color: white;
+    width: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+    padding: 20px;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    perspective: 1000px;
+
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-bottom: 10px;
+  }
+  
+  .card-user {
+    color: white;
+    width: 444px;
+  
+    height: fit-content;
+
+    padding: 20px;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    perspective: 1000px;
+
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-bottom: 10px;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card:hover svg {
+    scale: 0;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+  .gossip-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .box-show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-show-button {
+    border-radius: 2px;
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .toggle-checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .toggle-label {
+    position: relative;
+    cursor: pointer;
+    display: inline-block; /* Ensures label takes up space */
+    padding-left: 24px; /* Adjust as needed */
+  }
+  
+  .toggle-label::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-color: #fff; /* Adjust as needed */
+    border: 1px solid #ccc; /* Adjust as needed */
+  }
+  
+  .toggle-checkbox:checked ~ .toggle-label::before {
+    background-color: #ccc; /* Adjust as needed */
+  }
+  
+  .toggle-label::after {
+    content: "Show Password";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .toggle-checkbox:checked ~ #user_password {
+    -webkit-text-security: none; /* For Chrome, Safari, and newer versions of Edge */
+
+  }
+  
+  .toggle-checkbox:checked ~ .toggle-label::after {
+    content: "Hide Password";
+  }
+  
+  .size-comment-box {
+    min-width: 100%;
+  }
+
+  .size-gossip-box {
+    min-width: 76.4%;
+  }
+
+  .size-button-box {
+
+    width: fit-content;
+  }
+
+  .size-user-box {
+    max-width: 15%;
+  }
+  

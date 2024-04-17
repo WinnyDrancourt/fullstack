@@ -1,0 +1,168 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 99vh;
+  background-color: #202124;
+}
+p {
+  font-family: arial, sans-serif;
+  color: whitesmoke;
+  cursor: pointer;
+}
+a {
+  font-family: Arial, sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/*Elements du Top*/
+.top {
+  display: flex;
+  justify-content: flex-end;
+  height: 48px;
+  font-size: 13px;
+}
+
+.top a {
+  display: flex;
+  line-height: 24px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px 0px 0px;
+}
+
+.top img {
+  height: 30px;
+  width: 30px;
+  padding: 8px;
+  border-radius: 50%;
+}
+.top img:hover {
+  background-color: #333438;
+}
+/*Fin elements top*/
+
+/*Mid*/
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 150px;
+  max-height: 290px;
+  height: calc(100% - 560px);
+}
+.google img {
+  max-height: 92px;
+}
+.search {
+  display: block;
+  justify-content: center;
+  max-height: 160px;
+  padding: 20px;
+}
+
+.bordersearch {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #5f6368;
+  width: auto;
+  max-width: 584px;
+  border-radius: 24px;
+  display: flex;
+  overflow-x: hidden;
+  height: 44px;
+}
+.bordersearch:hover {
+  background-color: #333438;
+}
+.bordersearch img {
+  width: 24px;
+  line-height: 44px;
+  padding: 0px 8px;
+}
+.loupe {
+  margin-top: 10px;
+  width: 20px;
+}
+textarea {
+  flex-grow: 2;
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: whitesmoke;
+  margin-left: 20px;
+  padding-top: 13px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button p {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 35px;
+}
+.button p:hover {
+  border: 1px solid #5f6368;
+  text-decoration: none;
+}
+
+.empty {
+  flex-grow: 1;
+}
+/*Fin mid*/
+
+/*footer*/
+.country {
+  background-color: #171717;
+  font-size: 15px;
+  padding: 15px 30px;
+  border-bottom: 1px solid #3c4043;
+}
+
+.footer {
+  background-color: #171717;
+  font-size: 14px;
+}
+
+.footer .climat {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.footer img {
+  width: 12.5px;
+  height: 14px;
+}
+
+.footer .second {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .third {
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  padding: 15px;
+}
+
+/*Fin Footer*/

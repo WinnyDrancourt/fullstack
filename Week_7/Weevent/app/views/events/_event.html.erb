@@ -1,0 +1,34 @@
+<div id="<%= dom_id event %>">
+  <p>
+		<h2 class="card-title"><%= event.title %></h2>
+  </p>
+
+    <div class="card-body">
+      <p class="card-text">
+        <strong>Start date:</strong>
+        <%= event.start_date %>
+      </p>
+
+      <p class="card-text">
+        <strong>Duration:</strong>
+        <%= event.duration %>
+      </p>
+
+      <p class="card-text">
+        <strong>Description:</strong>
+        <%= event.description %>
+      </p>
+
+      <p class="card-text">
+        <strong>Location:</strong>
+        <%= event.location %>
+      </p>
+
+      <% admin_id = current_user %>
+
+      <p class="card-text">
+        <strong>Price:</strong>
+        <%= event.price %>
+      </p>
+    </div>
+</div>

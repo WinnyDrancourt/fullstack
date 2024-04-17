@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+  <head>
+    <title>UIKit Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <meta http-equiv="refresh" content="3" />
+  </head>
+  <!-- NavBar -->
+  <body>
+    <div class="border m-2 p-1">
+      <h1 class="text-center">NavBar Example</h1>
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Eventlight</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor02"
+            aria-controls="navbarColor02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"
+                  >Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Create Event</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Dropdown</a
+                >
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-sm-2"
+                type="search"
+                placeholder="Search"
+              />
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- End Nav -->
+    <!-- Jumbotron -->
+    <div class="m-2 p-1 border">
+      <h1 class="text-center">Banners Example</h1>
+      <div
+        class="jumbotron jumbotron-fluid text-center d-flex"
+        style="
+          background-image: url(img/jumbg.jpg);
+          background-size: 100% auto;
+          height: 400px;
+        "
+      >
+        <div class="container-fluid align-self-center">
+          <h1 class="display-4">Big jumbotron</h1>
+          <p class="lead">
+            This is a modified jumbotron that occupies the entire horizontal
+            space of its parent.
+          </p>
+        </div>
+      </div>
+      <div
+        class="jumbotron jumbotron-fluid text-center d-flex mt-1"
+        style="
+          background-image: url(img/jumbg.jpg);
+          background-size: 100% auto;
+          height: 200px;
+        "
+      >
+        <div class="container-fluid align-self-center">
+          <h1 class="display-4">Little jumbotron</h1>
+          <p class="lead">
+            This is a modified jumbotron that occupies the entire horizontal
+            space of its parent.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Jumbotron -->
+    <!-- Form -->
+    <div class="d-flex mx-2">
+      <div class="w-25 m-2 border p-1">
+        <h1 class="text-center">Form Example</h1>
+        <div class="md-form py-2">
+          <div class="md-focus-state input-group form">
+            <input
+              class="form-control form__input text-center"
+              name="email"
+              placeholder="Email"
+            />
+          </div>
+        </div>
+        <div class="md-form py-2">
+          <div class="md-focus-state input-group form">
+            <input
+              class="form-control form__input text-center"
+              name="password"
+              placeholder="Password"
+            />
+          </div>
+        </div>
+        <div class="form-group py-2">
+          <textarea
+            class="form-control text-center"
+            id="exampleTextarea"
+            placeholder="Text Area"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="mb-3 d-flex justify-content-center">
+          <button type="submit" class="btn btn-block btn-primary">
+            Signup
+          </button>
+        </div>
+        <div class="form-group">
+          <input
+            class="form-control"
+            type="file"
+            placeholder="File input example"
+            id="formFile"
+          />
+        </div>
+        <fieldset class="form-group">
+          <legend class="mt-4">Checkboxes</legend>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked=""
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+        </fieldset>
+      </div>
+      <!-- End Form -->
+      <!-- Card -->
+      <div class="d-flex mt-2 border p-1">
+        <!-- Card Event-->
+        <div class="w-50 mx-2">
+          <div class="card mb-3" style="border-radius: 15px">
+            <h3 class="card-header text-center">Card header</h3>
+            <img
+              src="img/card.jpeg"
+              class="img-fluid max-width: 100% height: auto"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="text-muted d-flex justify-content-between px-3">
+              <p class="">Duration :</p>
+              <p class="">Price :</p>
+              <p class="">Participate :</p>
+            </div>
+            <div class="card-footer text-muted d-flex justify-content-between">
+              <p class="">Date of Creation :</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+        <!-- End Card Event -->
+        <div class="w-100">
+          <h1 class="text-center">Card Example</h1>
+          <!-- Card Profile-->
+          <div class="w-100">
+            <div class="card" style="border-radius: 15px">
+              <div class="card-body p-1">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-1.webp"
+                      alt="Generic placeholder image"
+                      class="img-fluid"
+                      style="width: 180px; border-radius: 10px"
+                    />
+                  </div>
+                  <div class="flex-grow-1 ms-1 text-center pt-1">
+                    <h5 class="mb-3">Danny McLoan</h5>
+                    <p>some description text</p>
+                    <div
+                      class="d-flex justify-content-between rounded-3 pt-4 mb-2"
+                    >
+                      <div>
+                        <p class="small text-muted mb-1">Articles : 40</p>
+                      </div>
+                      <div class="px-3">
+                        <p class="small text-muted mb-1">Followers : 976</p>
+                      </div>
+                    </div>
+                    <div class="d-flex">
+                      <button
+                        type="button"
+                        class="btn btn-primary flex-grow-1"
+                        style="border-radius: 10px"
+                      >
+                        Follow
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End profile Card -->
+          <!-- Town Card -->
+          <div class="w-100 mt-2">
+            <div class="card" style="border-radius: 15px">
+              <div class="card-body p-1">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <img
+                      src="https://www.civitatis.com/f/suiza/ginebra/tour-annecy-ginebra-589x392.jpg"
+                      alt="Generic placeholder image"
+                      class="img-fluid"
+                      style="width: 180px; height: auto; border-radius: 10px"
+                    />
+                  </div>
+                  <div class="flex-grow-1 ms-1 text-center pt-1">
+                    <h5 class="mb-3">Annecy</h5>
+                    <p>some description text</p>
+                    <div
+                      class="d-flex justify-content-between rounded-3 pt-4 mb-2"
+                    >
+                      <div>
+                        <p class="small text-muted mb-1">Nb of event : 40</p>
+                      </div>
+                    </div>
+                    <div class="d-flex">
+                      <button
+                        type="button"
+                        class="btn btn-primary flex-grow-1"
+                        style="border-radius: 10px"
+                      >
+                        Event in Annecy
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Town Card -->
+      <!-- End Card -->
+    </div>
+    <!-- Footer -->
+    <div class="m-2 p-1 border">
+      <h1 class="text-center">Footer Example</h1>
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex px-4">
+          <li class="ms-3">
+            <a class="text-muted" href="#"><img src="img/twitter.svg" /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"><img src="img/insta.svg" /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"><img src="img/fb.svg" /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!-- End Footer -->
+  </body>
+</html>

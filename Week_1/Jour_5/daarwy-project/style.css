@@ -1,0 +1,264 @@
+
+.bouton-yann{
+    font-size: x-large;
+    transition: 1s;
+}
+
+.bouton-yann:hover{
+    /* font-size:xx-large; */
+    scale: 1.5;
+    transition: 0.5s;
+
+    
+
+    
+}
+.bouton-yann:active{
+    scale: 0.5;
+    transition: 0.5s;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+body{
+    background-color: #00020D;
+    font-family: 'Comfortaa',Arial, Helvetica, sans-serif;
+
+}
+
+
+.cadre1, .cadre2, .cadre3, .cadre4, .cadre5, .cadre6{
+    border-radius: 50%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadre1{
+    height: 450px;
+    width: 450px;
+    background-image: url(img/alexia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.neon-border{
+    height: 630px;
+    margin-bottom: 10px;
+}
+
+.cadre2{
+    height: 450px;
+    width: 450px;
+    background-image: url(img/damien.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.cadre3{
+    height: 450px;
+    width: 450px;
+    background-image: url(img/winny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.cadre4{
+    height: 450px;
+    width: 450px;
+    background-image: url(img/alexiacat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.cadre5{
+    height: 450px;
+    width: 450px;
+    background-image: url(img/ralph.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.cadre6{
+    height: 450px;
+    width: 450px;
+    background-image: url(img/yann.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+
+.position-text{
+    width: 500px;
+    margin: auto;
+}
+
+.carousel-caption{
+    backdrop-filter: blur(0px);
+    backdrop-filter: brightness(100%);
+    color: #f26da700;
+    transition: 1s;
+    border-radius: 30px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+.carousel-caption h5{
+    text-decoration: underline;
+}
+
+.carousel-caption:hover{
+    backdrop-filter: blur(20px) brightness(50%);
+    color: #F26DA6;
+}
+
+.carousel-item{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background-color: #0439d9;
+    opacity: 0.8;
+    color: white;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0439d9;
+    opacity: 0.6;
+}
+
+nav:hover {
+  background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(255,255,255,0) 100%);
+}
+
+.size-logo {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  scale: 1.1;
+}
+
+.carousel{
+    margin-bottom: 15rem;
+}
+
+.gap-nav ul {
+  gap: 5em;
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+  .masthead {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 35rem;
+    padding: 15rem 0;
+    letter-spacing: 0.0625em;
+  }
+  .masthead h1, .masthead .h1 {
+    font-size: 5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+.text-center-title{
+    border-top: 1px solid white;
+    padding-top: 50px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+  .masthead h2, .masthead .h2 {
+    max-width: 20rem;
+    letter-spacing: 0.0625em;
+    font-size: 1rem;
+  }  
+
+.FEX img {
+    filter: grayscale(1);
+    transition: transform .5s, filter .5s ease-in-out;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+
+.FEX img:hover {
+    border: 2px solid #F26DA6;
+    filter: none;
+}
+
+.FEX {
+    height: 500px;
+}
+.MEX {
+
+    height: 600px;
+    margin-top: 15rem;
+}
+
+
+
+.container .row .card {
+    /* background: rgb(242,109,166);
+    background: radial-gradient(circle, rgba(242,109,166,1) 0%, rgba(242,109,166,1) 40%, rgba(242,109,166,1) 50%, rgba(242,109,166,1) 60%, rgba(242,109,166,0) 100%); border:none; */
+    background-color: #ff3caab7;
+    background-image: linear-gradient(225deg, #ff3caadf 0%, #784ba0d8 50%, rgba(43, 133, 197, 0.86) 100%); border: solid rgba(0, 0, 0, 0) 2px;
+    ;
+}
+
+.container .row .card:hover {
+    background-color: #ff3caab7;
+    background-image: linear-gradient(225deg, #ff3caadf 0%, #784ba0d8 50%, rgba(43, 133, 197, 0.86) 100%); border: solid rgba(0, 0, 0, 0) 2px;
+}
+
+.btncard {
+    display: flex;
+    border-radius: 5px;
+    text-decoration: none;
+    color: lavenderblush;
+    padding: 1vh 2vh;
+    justify-content: center;
+    background-color:#4D70F4;
+    font-weight: bolder;
+}
+
+.btncard:hover {
+    color: lavenderblush;
+    background-color: #415FCF;
+
+  }
+
+.CEX {
+    border : 2px solid transparent;
+}
+.GFEX {
+    height: 50%;
+    object-fit: cover;
+
+}
+
+#pricing {
+    margin: 4vh;
+    font-weight: bolder;
+
+
+
+}

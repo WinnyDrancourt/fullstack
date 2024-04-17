@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #202124;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #202124;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* partie header */
+
+.top-nav {
+    margin-top: 20px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.top-nav img,
+.top-nav a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-nav img {
+    padding: 15px;
+    border-radius: 50%;
+}
+.top-nav img:hover{
+    background-color: red;
+    border: 1px solid red;
+    
+}
+
+.connexion {
+    background-color:rgb(235, 235, 235);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* fin partie header */
+
+/* début partie main */
+
+.main-nav1 {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.main-nav2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 200px;
+    width: 100%;
+}
+
+
+.recherche {
+    display: flex;
+    justify-content: center;
+    padding : 10px;
+    border: 2px solid rebeccapurple ;
+    width: 21%;
+    border-radius: 40px;
+
+}
+
+
+
+.searchbutton {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    margin-top: 20px;
+    
+
+}
+
+.button {
+    border: none;
+    margin-right: 10px;
+    
+}
+
+.button:hover {
+    background-color: whitesmoke;
+    border: 1px solid rgb(165, 164, 164) ;
+    border-radius: 20px;
+}
+
+input {
+    flex-grow: 1;
+    border: 1px solid rebeccapurple;
+    
+}
+
+input:focus {
+    border: none;
+}
+
+/* fin partie main */
+
+
+/* début partie footer*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+
+}
+
+
+
+
+.france {
+    padding: 15px 30px;
+    border-bottom: 0.5px solid #dadce0;
+}
+
+.bottom-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 15px 20px;
+    
+
+}
+
+.bottom1 {
+    /*display: flex;*/
+    order: 1;
+}
+
+.bottom1 img {
+    height: 15px;
+    width: 15px;
+}
+
+.bottom2 {
+    /*display: flex;*/
+    order: 0;
+}
+
+.bottom3 {
+    /*display: flex;*/
+    order: 2;
+}
+
+/* finpartie footer*/

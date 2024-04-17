@@ -1,0 +1,6 @@
+section{
+    background: url(https://www.rapturecamps.com/wp-content/uploads/2023/10/4-people-standing-with-with-their-surfboards-over-their-head-at-sunset.jpg) center;    
+}
+.filter{
+    backdrop-filter: blur(0.5rem) brightness(0.5);
+}

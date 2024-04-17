@@ -1,0 +1,22 @@
+<main class="d-flex justify-content-center align-items-center mt-5">
+
+<div class="form">
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+<p class="form-title">Sign in to your account</p>
+ <div class="input-container">
+ <%= f.email_field :email, placeholder: "Email", autofocus: true, autocomplete: "email" %>
+   <span>
+   </span>
+</div>
+<div class="input-container">
+<%= f.password_field :password, placeholder: "Enter password", autocomplete: "current-password" %>
+ </div>
+ <div>
+  <%= f.submit "Log in", class: "submit" %>
+  </div>
+  <%= render "devise/shared/links" %>
+
+<% end %>
+
+</div>
+</main>

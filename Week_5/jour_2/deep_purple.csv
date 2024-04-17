@@ -1,0 +1,93 @@
+TrackId,Name,AlbumId,MediaTypeId,GenreId,Composer,Milliseconds,Bytes,UnitPrice
+543,Burn,43,1,1,Coverdale/Lord/Paice,453955,14775708,0.99
+544,Stormbringer,43,1,1,Coverdale,277133,9050022,0.99
+545,Gypsy,43,1,1,Coverdale/Hughes/Lord/Paice,339173,11046952,0.99
+546,"Lady Double Dealer",43,1,1,Coverdale,233586,7608759,0.99
+547,Mistreated,43,1,1,Coverdale,758648,24596235,0.99
+548,"Smoke On The Water",43,1,1,Gillan/Glover/Lord/Paice,618031,20103125,0.99
+549,"You Fool No One",43,1,1,Coverdale/Lord/Paice,804101,26369966,0.99
+620,"Space Truckin'",50,1,1,Blackmore/Gillan/Glover/Lord/Paice,1196094,39267613,0.99
+621,"Going Down / Highway Star",50,1,1,"Gillan/Glover/Lord/Nix - Blackmore/Paice",913658,29846063,0.99
+622,"Mistreated (Alternate Version)",50,1,1,Blackmore/Coverdale,854700,27775442,0.99
+623,"You Fool No One (Alternate Version)",50,1,1,Blackmore/Coverdale/Lord/Paice,763924,24887209,0.99
+745,"Comin' Home",58,1,1,Bolin/Coverdale/Paice,235781,7644604,0.99
+746,"Lady Luck",58,1,1,Cook/Coverdale,168202,5501379,0.99
+747,"Gettin' Tighter",58,1,1,Bolin/Hughes,218044,7176909,0.99
+748,Dealer,58,1,1,Bolin/Coverdale,230922,7591066,0.99
+749,"I Need Love",58,1,1,Bolin/Coverdale,263836,8701064,0.99
+750,Drifter,58,1,1,Bolin/Coverdale,242834,8001505,0.99
+751,"Love Child",58,1,1,Bolin/Coverdale,188160,6173806,0.99
+752,"This Time Around / Owed to 'G' [Instrumental]",58,1,1,Bolin/Hughes/Lord,370102,11995679,0.99
+753,"You Keep On Moving",58,1,1,Coverdale/Hughes,319111,10447868,0.99
+754,"Speed King",59,1,1,"Blackmore, Gillan, Glover, Lord, Paice",264385,8587578,0.99
+755,Bloodsucker,59,1,1,"Blackmore, Gillan, Glover, Lord, Paice",256261,8344405,0.99
+756,"Child In Time",59,1,1,"Blackmore, Gillan, Glover, Lord, Paice",620460,20230089,0.99
+757,"Flight Of The Rat",59,1,1,"Blackmore, Gillan, Glover, Lord, Paice",478302,15563967,0.99
+758,"Into The Fire",59,1,1,"Blackmore, Gillan, Glover, Lord, Paice",210259,6849310,0.99
+759,"Living Wreck",59,1,1,"Blackmore, Gillan, Glover, Lord, Paice",274886,8993056,0.99
+760,"Hard Lovin' Man",59,1,1,"Blackmore, Gillan, Glover, Lord, Paice",431203,13931179,0.99
+761,Fireball,60,1,1,"Ritchie Blackmore, Ian Gillan, Roger Glover, Jon Lord, Ian Paice",204721,6714807,0.99
+762,"No No No",60,1,1,"Ritchie Blackmore, Ian Gillan, Roger Glover, Jon Lord, Ian Paice",414902,13646606,0.99
+763,"Strange Kind Of Woman",60,1,1,"Ritchie Blackmore, Ian Gillan, Roger Glover, Jon Lord, Ian Paice",247092,8072036,0.99
+764,"Anyone's Daughter",60,1,1,"Ritchie Blackmore, Ian Gillan, Roger Glover, Jon Lord, Ian Paice",284682,9354480,0.99
+765,"The Mule",60,1,1,"Ritchie Blackmore, Ian Gillan, Roger Glover, Jon Lord, Ian Paice",322063,10638390,0.99
+766,Fools,60,1,1,"Ritchie Blackmore, Ian Gillan, Roger Glover, Jon Lord, Ian Paice",500427,16279366,0.99
+767,"No One Came",60,1,1,"Ritchie Blackmore, Ian Gillan, Roger Glover, Jon Lord, Ian Paice",385880,12643813,0.99
+768,"Knocking At Your Back Door",61,1,1,"Richie Blackmore, Ian Gillian, Roger Glover",424829,13779332,0.99
+769,"Bad Attitude",61,1,1,"Richie Blackmore, Ian Gillian, Roger Glover, Jon Lord",307905,10035180,0.99
+770,"Child In Time (Son Of Aleric - Instrumental)",61,1,1,"Richie Blackmore, Ian Gillian, Roger Glover, Jon Lord, Ian Paice",602880,19712753,0.99
+771,"Nobody's Home",61,1,1,"Richie Blackmore, Ian Gillian, Roger Glover, Jon Lord, Ian Paice",243017,7929493,0.99
+772,"Black Night",61,1,1,"Richie Blackmore, Ian Gillian, Roger Glover, Jon Lord, Ian Paice",368770,12058906,0.99
+773,"Perfect Strangers",61,1,1,"Richie Blackmore, Ian Gillian, Roger Glover",321149,10445353,0.99
+774,"The Unwritten Law",61,1,1,"Richie Blackmore, Ian Gillian, Roger Glover, Ian Paice",295053,9740361,0.99
+775,"Call Of The Wild",61,1,1,"Richie Blackmore, Ian Gillian, Roger Glover, Jon Lord",293851,9575295,0.99
+776,Hush,61,1,1,South,213054,6944928,0.99
+777,"Smoke On The Water",61,1,1,"Richie Blackmore, Ian Gillian, Roger Glover, Jon Lord, Ian Paice",464378,15180849,0.99
+778,"Space Trucking",61,1,1,"Richie Blackmore, Ian Gillian, Roger Glover, Jon Lord, Ian Paice",341185,11122183,0.99
+779,"Highway Star",62,1,1,"Ian Gillan/Ian Paice/Jon Lord/Ritchie Blckmore/Roger Glover",368770,12012452,0.99
+780,"Maybe I'm A Leo",62,1,1,"Ian Gillan/Ian Paice/Jon Lord/Ritchie Blckmore/Roger Glover",290455,9502646,0.99
+781,"Pictures Of Home",62,1,1,"Ian Gillan/Ian Paice/Jon Lord/Ritchie Blckmore/Roger Glover",303777,9903835,0.99
+782,"Never Before",62,1,1,"Ian Gillan/Ian Paice/Jon Lord/Ritchie Blckmore/Roger Glover",239830,7832790,0.99
+783,"Smoke On The Water",62,1,1,"Ian Gillan/Ian Paice/Jon Lord/Ritchie Blckmore/Roger Glover",340871,11246496,0.99
+784,Lazy,62,1,1,"Ian Gillan/Ian Paice/Jon Lord/Ritchie Blckmore/Roger Glover",442096,14397671,0.99
+785,"Space Truckin'",62,1,1,"Ian Gillan/Ian Paice/Jon Lord/Ritchie Blckmore/Roger Glover",272796,8981030,0.99
+786,"Vavoom : Ted The Mechanic",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",257384,8510755,0.99
+787,"Loosen My Strings",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",359680,11702232,0.99
+788,"Soon Forgotten",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",287791,9401383,0.99
+789,"Sometimes I Feel Like Screaming",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",451840,14789410,0.99
+790,"Cascades : I'm Not Your Lover",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",283689,9209693,0.99
+791,"The Aviator",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",320992,10532053,0.99
+792,"Rosa's Cantina",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",312372,10323804,0.99
+793,"A Castle Full Of Rascals",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",311693,10159566,0.99
+794,"A Touch Away",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",276323,9098561,0.99
+795,"Hey Cisco",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",354089,11600029,0.99
+796,"Somebody Stole My Guitar",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",249443,8180421,0.99
+797,"The Purpendicular Waltz",63,1,1,"Ian Gillan, Roger Glover, Jon Lord, Steve Morse, Ian Paice",283924,9299131,0.99
+798,"King Of Dreams",64,1,1,"Blackmore, Glover, Turner",328385,10733847,0.99
+799,"The Cut Runs Deep",64,1,1,"Blackmore, Glover, Turner, Lord, Paice",342752,11191650,0.99
+800,"Fire In The Basement",64,1,1,"Blackmore, Glover, Turner, Lord, Paice",283977,9267550,0.99
+801,"Truth Hurts",64,1,1,"Blackmore, Glover, Turner",314827,10224612,0.99
+802,"Breakfast In Bed",64,1,1,"Blackmore, Glover, Turner",317126,10323804,0.99
+803,"Love Conquers All",64,1,1,"Blackmore, Glover, Turner",227186,7328516,0.99
+804,Fortuneteller,64,1,1,"Blackmore, Glover, Turner, Lord, Paice",349335,11369671,0.99
+805,"Too Much Is Not Enough",64,1,1,"Turner, Held, Greenwood",257724,8382800,0.99
+806,"Wicked Ways",64,1,1,"Blackmore, Glover, Turner, Lord, Paice",393691,12826582,0.99
+807,Stormbringer,65,1,1,"D.Coverdale/R.Blackmore/Ritchie Blackmore",246413,8044864,0.99
+808,"Love Don't Mean a Thing",65,1,1,"D.Coverdale/G.Hughes/Glenn Hughes/I.Paice/Ian Paice/J.Lord/John Lord/R.Blackmore/Ritchie Blackmore",263862,8675026,0.99
+809,"Holy Man",65,1,1,"D.Coverdale/G.Hughes/Glenn Hughes/J.Lord/John Lord",270236,8818093,0.99
+810,"Hold On",65,1,1,"D.Coverdal/G.Hughes/Glenn Hughes/I.Paice/Ian Paice/J.Lord/John Lord",306860,10022428,0.99
+811,"Lady Double Dealer",65,1,1,"D.Coverdale/R.Blackmore/Ritchie Blackmore",201482,6554330,0.99
+812,"You Can't Do it Right (With the One You Love)",65,1,1,"D.Coverdale/G.Hughes/Glenn Hughes/R.Blackmore/Ritchie Blackmore",203755,6709579,0.99
+813,"High Ball Shooter",65,1,1,"D.Coverdale/G.Hughes/Glenn Hughes/I.Paice/Ian Paice/J.Lord/John Lord/R.Blackmore/Ritchie Blackmore",267833,8772471,0.99
+814,"The Gypsy",65,1,1,"D.Coverdale/G.Hughes/Glenn Hughes/I.Paice/Ian Paice/J.Lord/John Lord/R.Blackmore/Ritchie Blackmore",242886,7946614,0.99
+815,"Soldier Of Fortune",65,1,1,"D.Coverdale/R.Blackmore/Ritchie Blackmore",193750,6315321,0.99
+816,"The Battle Rages On",66,1,1,"ian paice/jon lord",356963,11626228,0.99
+817,"Lick It Up",66,1,1,"roger glover",240274,7792604,0.99
+818,Anya,66,1,1,"jon lord/roger glover",392437,12754921,0.99
+819,"Talk About Love",66,1,1,"roger glover",247823,8072171,0.99
+820,"Time To Kill",66,1,1,"roger glover",351033,11354742,0.99
+821,"Ramshackle Man",66,1,1,"roger glover",334445,10874679,0.99
+822,"A Twist In The Tail",66,1,1,"roger glover",257462,8413103,0.99
+823,"Nasty Piece Of Work",66,1,1,"jon lord/roger glover",276662,9076997,0.99
+824,Solitaire,66,1,1,"roger glover",282226,9157021,0.99
+825,"One Man's Meat",66,1,1,"roger glover",278804,9068960,0.99
